@@ -42,6 +42,7 @@ public class AltaProductos extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
         jButton4 = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
 
         jLabel1.setText("Alta de productos ");
 
@@ -112,6 +113,8 @@ public class AltaProductos extends javax.swing.JPanel {
             }
         });
 
+        jLabel8.setText("regresar");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -132,7 +135,9 @@ public class AltaProductos extends javax.swing.JPanel {
                         .addGap(18, 18, 18)
                         .addComponent(jButton1))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel8))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(37, 37, 37)
@@ -164,7 +169,9 @@ public class AltaProductos extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addComponent(jLabel1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel8))
                 .addGap(28, 28, 28)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -242,6 +249,7 @@ public class AltaProductos extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;

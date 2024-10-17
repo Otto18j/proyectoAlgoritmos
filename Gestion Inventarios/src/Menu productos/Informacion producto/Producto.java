@@ -47,6 +47,8 @@ public class Producto extends javax.swing.JPanel {
         jComboBox6 = new javax.swing.JComboBox<>();
         jLabel10 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
 
         jLabel1.setText("Producto");
 
@@ -101,6 +103,10 @@ public class Producto extends javax.swing.JPanel {
 
         jButton3.setText("ingrese ");
 
+        jLabel11.setText("Baja de productos");
+
+        jButton4.setText("ingrese ");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -127,7 +133,12 @@ public class Producto extends javax.swing.JPanel {
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel7)))
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel7)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jLabel11)
+                                                .addGap(29, 29, 29)
+                                                .addComponent(jButton4)))))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
@@ -195,7 +206,9 @@ public class Producto extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
-                    .addComponent(jButton3))
+                    .addComponent(jButton3)
+                    .addComponent(jLabel11)
+                    .addComponent(jButton4))
                 .addContainerGap(68, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -217,6 +230,7 @@ public class Producto extends javax.swing.JPanel {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
@@ -225,6 +239,7 @@ public class Producto extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> jComboBox6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
